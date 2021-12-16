@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Adelina_Otonbaeva_Final</string>
+    <string name="home">Home</string>
+    <string name="_21_24_32_banjara_hills">21-24-32, Banjara Hills</string>
+    <string name="search_food_nearby">Search food nearby</string>
+    <string name="todo">TODO</string>
+    <string name="than_you">Than you!!!</string>
+    <string name="pod_for_the_event_name">Pod for the EVENT Name</string>
+    <string name="direct">Direct</string>
+    <string name="pods">Pods</string>
+    <string name="groups">Groups</string>
 </resources>
