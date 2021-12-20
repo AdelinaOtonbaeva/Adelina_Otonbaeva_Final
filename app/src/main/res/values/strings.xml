@@ -18,4 +18,7 @@
     <string name="now_order_user_specific_food_directly_below">Now order user specific food directly below!</string>
     <string name="user_1">User 1</string>
     <string name="user_3">User 3</string>
+    <string name="filter">filter</string>
+    <string name="todo">todo</string>
+    <string name="user_2">User 2</string>
 </resources>

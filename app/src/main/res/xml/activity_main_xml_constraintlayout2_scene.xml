@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+        <OnClick
+            motion:targetId="@id/imageView55"
+            motion:clickAction="toggle"/>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/imageView55"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:rotation="201"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView5"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp"
+            motion:layout_constraintEnd_toStartOf="@+id/imageView7" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/textView5"
+            motion:layout_constraintEnd_toStartOf="@+id/imageView7" />
+    </ConstraintSet>
+</MotionScene>
